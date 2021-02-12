@@ -1,0 +1,50 @@
+.Form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 300px;
+    width: 300px;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.Input {
+    height: 30px;
+    width: 60%;
+    border-radius: 7px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.Btn {
+    margin-right: 10px;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(223, 85, 85);
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 7px;
+}
+.Loading{
+	margin-right:auto;
+    animation: rotate 1s infinite linear;
+    border-radius: 50%;
+    border: 3px solid rgb(223, 85, 85);
+    border-right: 0px;
+    border-bottom: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

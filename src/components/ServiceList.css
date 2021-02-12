@@ -1,0 +1,31 @@
+.Item {
+    list-style-type: none;
+    width: 400px;
+    height: 30px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 2px;
+    justify-content: space-between;
+}
+
+.Item:nth-child(n+2)
+{
+    border-top: none;
+}
+
+.ItemBtn {
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color:  rgb(223, 85, 85);
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.DelBtn {
+    margin-right: 10px;
+}
